@@ -23,14 +23,14 @@ const data = {
     chalk.white.bold("https://twitter.com/") + chalk.cyan("balajig024"),
   github: chalk.white.bold("https://github.com/") + chalk.green("Balaji242524"),
   linkedin:
-    chalk.white.bold("https://linkedin.com/in/") + chalk.blue("gokulnath-rs"),
-  Mail: chalk.white.bold("https://gmail.com/") + chalk.cyan("balaji.g2022it@sece.ac.in"),
+    chalk.white.bold("https://linkedin.com/in/") + chalk.blue("balajig024"),
+  Mail: chalk.cyan("balaji.g2022it@sece.ac.in"),
   Portfolio:
     chalk.white.bold("https://") + chalk.hex("#97FFF4")("balajig.netlify.app"),
   labelTwitter: chalk.bgHex("#FFF").hex("#00acee").bold("    Twitter"),
   labelGitHub: chalk.bgBlack.white.bold("     GitHub"),
   labelLinkedIn: chalk.bgHex("#0072b1").hex("#fef9f3").bold("   LinkedIn"),
-  labelWeb: chalk.bgHex("#FFE7CE").hex("#071A52").bold("    Socials"),
+  labelWeb: chalk.bgHex("#FFE7CE").hex("#071A52").bold("       Mail"),
   labelPortfolio: chalk.bgHex("#9400FF").hex("#fef9f3").bold("  Portfolio"),
 };
 
@@ -40,7 +40,7 @@ const roles = `${data.roles}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
-const webing = `${data.labelWeb}  ${data.Socials}`;
+const webing = `${data.labelWeb}  ${data.Mail}`;
 const portfolio = `${data.labelPortfolio}  ${data.Portfolio}`;
 
 const output =

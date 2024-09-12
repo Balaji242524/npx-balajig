@@ -1,6 +1,6 @@
 {
   "name": "balajig",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Balaji's Introduction on Terminal.",
   "exports": "./index.js",
   "bin": {
@@ -34,7 +34,6 @@
   "bugs": {
     "url": "https://github.com/Balaji242524/npx-balajig/issues"
   },
-  "homepage": "https://github.com/Balaji242524",
   "homepage": "https://github.com/Balaji242524",
   "dependencies": {
     "boxen": "^7.1.1",
