@@ -1,0 +1,43 @@
+{
+  "name": "balajig",
+  "version": "1.0.5",
+  "description": "Balaji's Introduction on Terminal.",
+  "exports": "./index.js",
+  "bin": {
+    "gokulnath": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node ./bin/index.js",
+    "dev": "node ./bin/index.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balaji242524/npx-balajig"
+  },
+  "keywords": [
+    "business",
+    "balaji",
+    "balajig",
+    "balajis",
+    "npm card",
+    "npx-card",
+    "npx business card"
+  ],
+  "author": "balaji",
+  "license": "MIT",
+  "files": [
+    "bin/index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Balaji242524/npx-balajig/issues"
+  },
+  "homepage": "https://github.com/Balaji242524",
+  "homepage": "https://github.com/Balaji242524",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0"
+  }
+}
